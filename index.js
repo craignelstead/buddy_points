@@ -245,7 +245,7 @@ const updateDOM = (function(doc) {
 
             switch (rank) {
                 case 1:
-                    topDiv.classList.add('currentWinner');
+                    card.classList.add('currentWinner');
                     topDivRank.classList.add('gold');
                     break;
                 case 2:

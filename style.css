@@ -23,7 +23,7 @@ body {
 #cardHolder {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
 }
 
 .card {
@@ -41,6 +41,9 @@ body {
     justify-content: space-between;
     font-size: 2rem;
     padding: 5px;
+    align-items: center;
+    background-color: rgba(64,64,64, 0.5);
+    border-radius: 10px
 }
 
 .rank {
@@ -58,8 +61,7 @@ body {
 }
 
 .currentWinner {
-    background-color: rgba(64,64,64, 0.5);
-    border-radius: 10px;
+    border: 2px solid gold;
 }
 
 .gold {
