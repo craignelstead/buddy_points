@@ -1,0 +1,92 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #202020;
+}
+
+#container {
+    padding: 5px;
+    width: 95%;
+}
+
+#container h1 {
+    text-align: center;
+}
+
+#cardHolder {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 5px;
+    filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.3));
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding: 5px;
+}
+
+.rank {
+    display: flex;
+    font-size: 2rem;
+    font-weight: bold;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    color: black;
+    background-color: #FAF9F6;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.currentWinner {
+    background-color: rgba(64,64,64, 0.5);
+    border-radius: 10px;
+}
+
+.gold {
+    background-color: gold;
+}
+
+.silver {
+    background-color: #8e8f91; 
+}
+
+.bronze {
+    background-color: #cd7f32;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.miniDiv {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.comboScore {
+    align-content: center;
+    font-size: 1.5rem;
+}
